@@ -1,11 +1,29 @@
+* {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background: #2d88a5;
-	font-size: 20px;
 }
+
 @font-face {
 	font-family: ds-digital;
 	src: url("font/DS-Digital.ttf");
 }
+
+#menu {
+	background: #006f8a;
+	width: 100%;
+	height: 100px;
+	opacity: 0;
+}
+
+#menu:hover {
+	opacity: 1;
+}
+
 #clock {
 	font-family: ds-digital;
 	font-size: 10em;
